@@ -1,0 +1,19 @@
+{
+  "name": "medialab-one-pager",
+  "version": "1.0.0",
+  "description": "Onepager for the project Medialab, to store all data related to our project and deliver to our client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Medialab-Virtuele-Helden/Medialab-One-Pager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Medialab-Virtuele-Helden/Medialab-One-Pager/issues"
+  },
+  "homepage": "https://github.com/Medialab-Virtuele-Helden/Medialab-One-Pager#readme"
+}
