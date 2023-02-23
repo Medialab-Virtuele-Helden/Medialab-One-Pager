@@ -2,10 +2,11 @@
   "name": "medialab-one-pager",
   "version": "1.0.0",
   "description": "Onepager for the project Medialab, to store all data related to our project and deliver to our client.",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel serve src/index.html --public-url / --dist-dir dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,9 @@
     "url": "https://github.com/Medialab-Virtuele-Helden/Medialab-One-Pager/issues"
   },
   "homepage": "https://github.com/Medialab-Virtuele-Helden/Medialab-One-Pager#readme",
-  "devDependencies": {
-    "@parcel/transformer-sass": "2.x",
-    "parcel": "2.x"
-  },
   "dependencies": {
     "@popperjs/core": "2.x",
-    "bootstrap": "5.x"
+    "bootstrap": "5.x",
+    "parcel-bundler": "1.x"
   }
 }
